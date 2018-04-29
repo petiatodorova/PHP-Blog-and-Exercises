@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body_id 'profile' %}
+
+{% block main %}
+    <div>
+        <span style="color: #18bc9c">Email:</span> {{ user.email }}
+        <br>
+        <span style="color: #18bc9c">Full Name:</span> {{ user.fullName }}
+    </div>
+{% endblock %}
